@@ -17,7 +17,7 @@
             <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
         </p>
         <label for="name-input"> Name:</label>
-        <input type="text" name="Your name" placeholder="your name" id="name-input">
+        <input type="text" name="your-name" placeholder="your name" id="name-input">
         <br>
         <label for="email-input"> Email:</label>
         <input type="email" name="user-email" placeholder="your email" id="email-input">
@@ -28,12 +28,20 @@
         <p>
             Choose your gender:
         </p>
-        <label for="male-input">Male</label>
-        <input type="radio" name="gender" value="male" checked id="male-input">
-        <label for="female-input">Female</label>
-        <input type="radio" name="gender" value="female" id="female-input">
-        <label for="other-input">Other</label>
-        <input type="radio" name="gender" value="other" id="other-input">
+        <label>
+        <input type="radio" name="gender" value="male" checked>
+        Male
+        </label>
+        <br>
+        <label>
+        <input type="radio" name="gender" value="female">
+        Female
+        </label>
+        <br>
+        <label>
+        <input type="radio" name="gender" value="other">
+        Other
+        </label>
         <p>
             You`ll front-end developer always!
             <br>
@@ -45,7 +53,7 @@
             <input type="checkbox" name="no" id="no-input">
             <a href="backend.html">I`m learning backend</a>
         </p>
-    <!--<p>
+    <p>
         Choose your favorite color
     </p>
     <label for="color-input"></label>
@@ -53,7 +61,7 @@
     <p>
         <label for="date-input">Date:</label>
             <input type="date" name="trip-start" id="date-input" min="2018-01-01" max="2019-12-31" value="2019-02-22">
-    </p>-->
+    </p>
         <input type="submit" value="Submit"/>
     </form>
 </body>
