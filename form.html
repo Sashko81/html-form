@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <a href="index.html">back</a>
+    <h1>Form</h1>
+    <form method="post" action="https://formspree.io/jumeau_sl@ukr.net">
+        <p>
+            <img src="img/fb-50.png" alt="avatar">
+            <br>
+            <label for="avatar">Choose a profile picture:</label>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        </p>
+        <label for="name-input"> Name:</label>
+        <input type="text" name="Your name" placeholder="your name" id="name-input">
+        <br>
+        <label for="email-input"> Email:</label>
+        <input type="email" name="user-email" placeholder="your email" id="email-input">
+        <br>
+        <label for="password-input"> Password:</label>
+        <input type="password" name="user-password" placeholder="your password" id="password-input">
+        <br>
+        <p>
+            Choose your gender:
+        </p>
+        <label for="male-input">Male</label>
+        <input type="radio" name="gender" value="male" checked id="male-input">
+        <label for="female-input">Female</label>
+        <input type="radio" name="gender" value="female" id="female-input">
+        <label for="other-input">Other</label>
+        <input type="radio" name="gender" value="other" id="other-input">
+        <p>
+            You`ll front-end developer always!
+            <br>
+            Do you agree?
+            <br>
+            <label for="yes-input">Yes, I do</label>
+            <input type="checkbox" checked name="yes" id="yes-input">
+            <label for="no-input">No, I don`t </label>
+            <input type="checkbox" name="no" id="no-input">
+            <a href="backend.html">I`m learning backend</a>
+        </p>
+    <!--<p>
+        Choose your favorite color
+    </p>
+    <label for="color-input"></label>
+    <input type="color" name="color" value="#e66465" id="color-input">
+    <p>
+        <label for="date-input">Date:</label>
+            <input type="date" name="trip-start" id="date-input" min="2018-01-01" max="2019-12-31" value="2019-02-22">
+    </p>-->
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
